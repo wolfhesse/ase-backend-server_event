@@ -1,0 +1,25 @@
+<h1>Listing server_events</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Vakz</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @server_events.each do |server_event| %>
+  <tr>
+    <td><%= server_event.name %></td>
+    <td><%= server_event.vakz %></td>
+    <td><%= link_to 'Show', server_event %></td>
+    <td><%= link_to 'Edit', edit_server_event_path(server_event) %></td>
+    <td><%= link_to 'Destroy', server_event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Server event', new_server_event_path %>

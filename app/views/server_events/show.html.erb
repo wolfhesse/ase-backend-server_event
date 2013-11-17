@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @server_event.name %>
+</p>
+
+<p>
+  <b>Vakz:</b>
+  <%= @server_event.vakz %>
+</p>
+
+
+<%= link_to 'Edit', edit_server_event_path(@server_event) %> |
+<%= link_to 'Back', server_events_path %>
