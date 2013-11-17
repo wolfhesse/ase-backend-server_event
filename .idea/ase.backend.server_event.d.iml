@@ -60,6 +60,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.12, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="test-unit (v2.5.5, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.18.1, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.15, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
