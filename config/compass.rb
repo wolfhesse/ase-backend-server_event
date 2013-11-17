@@ -1,6 +1,7 @@
 project_type = :rails
 #
 # Require any additional compass plugins here.
+require '
 require 'zen-grids'
 require 'ninesixty'
 

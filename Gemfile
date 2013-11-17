@@ -21,7 +21,8 @@ group :assets do
 
 
   gem 'compass-960-plugin'
-  gem 'compass_twitter_bootstrap'
+  #gem 'compass_twitter_bootstrap'
+  gem 'compass-bootstrap-rails'
   gem 'compass-rails'
   gem 'zen-grids'
 end
@@ -44,7 +45,8 @@ gem 'unicorn'
 # gem 'debugger'
 
 gem 'will_paginate'
-# doesn't work right now gem 'will_paginate-bootstrap'
+# doesn't work right now
+gem 'will_paginate-bootstrap'
 
 group :test do
   gem 'test-unit'

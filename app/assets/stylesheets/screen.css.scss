@@ -3,15 +3,19 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
-@import "960/text";
-@include text;
+//@import "compass/reset";
+@import "compass-bootstrap/reset";
+//@import "960/text";
+//@include text;
 
 @import "960/grid";
+
 //@import "zen";
 
-@import "compass_twitter_bootstrap";
 
+//@import "zen/background";
+
+//@import 'blueprint';
 
 .container_24 {
   $ninesixty-grid-width: 992px;
