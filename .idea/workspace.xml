@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f3e5f6-451f-478a-8afd-ff6b211f948e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ase.backend.server_event.d.iml" afterPath="$PROJECT_DIR$/.idea/ase.backend.server_event.d.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/server_event.rb" afterPath="$PROJECT_DIR$/app/models/server_event.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="ase.backend.server_event.d.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384725156343" ignored="false" />
+    <file path="/Dummy.txt" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384725822975" ignored="false" />
     <file path="/screen.css.scss" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384725102846" ignored="false" />
     <file path="/server_events.css.scss" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384723801426" ignored="false" />
     <file path="db-console:/ddafcf79/5adf7efa-b3a7-45a4-a80b-840f591fe5d7/" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384723854765" ignored="false" />
@@ -20,6 +17,7 @@
     <file path="/show.html.erb" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384724830198" ignored="false" />
     <file path="/server_event.rb" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384725309841" ignored="false" />
     <file path="/Gemfile" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384725386640" ignored="false" />
+    <file path="/.gitignore" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384725844106" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +51,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server_event_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server_event_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/server_event_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="2" selection-start="483" selection-end="483" vertical-scroll-proportion="0.57323235">
+            <state line="25" column="2" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="6" selection-start="437" selection-end="437" vertical-scroll-proportion="0.5252525">
               <folding />
             </state>
           </provider>
@@ -146,6 +153,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/screen.css.scss" />
         <option value="$PROJECT_DIR$/app/models/server_event.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -585,14 +593,18 @@
       <created>1384725158355</created>
       <updated>1384725158355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="wp before will_paginate">
+      <created>1384725824400</created>
+      <updated>1384725824400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-2" width="1026" height="771" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24335378" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -654,7 +666,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="wp css grid system" />
+    <option name="LAST_COMMIT_MESSAGE" value="wp before will_paginate" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -671,19 +683,12 @@
     <MESSAGE value="wp move to postgresql, gemfile stuff in rubymine" />
     <MESSAGE value="cp renamed to AseSe and installed some compass scss" />
     <MESSAGE value="wp css grid system" />
+    <MESSAGE value="wp before will_paginate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/1c935ab6/71a2d41b-32de-417b-aeef-21c3f602ae1a/be_se_dev.public.server_events">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/server_events.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.14942528">
@@ -784,7 +789,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/server_event_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="2" selection-start="483" selection-end="483" vertical-scroll-proportion="0.57323235">
+        <state line="25" column="2" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="437" selection-end="437" vertical-scroll-proportion="0.5252525">
           <folding />
         </state>
       </provider>
