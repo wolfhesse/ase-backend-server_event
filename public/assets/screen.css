@@ -1,59 +1,79 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline; }
+/*
+Syntax error: File to import not found or unreadable: compass/960.
+              Load paths:
+                /home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets
+                /home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets
+                /home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/zen-grids-1.4/stylesheets
+                /home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-960-plugin-0.10.4/stylesheets
+                Compass::SpriteImporter
+                Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint)
+                Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/ie.css)
+                Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/forms.css)
+                Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/typography.css)
+                Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/reset.css)
+                Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/print.css)
+                Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/grid.css)
+                Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/lib/assets/stylesheets/blueprint)
+                Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/lib/assets/stylesheets/blueprint/index.css)
+                Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/screen.css.scss)
+                Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/application.css)
+                Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/print.css.scss)
+                Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/ie.css)
+                Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/ie.css.scss)
+                Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/print.css)
+                Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/server_events.css.scss)
+                Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/scaffolds.css.scss)
+                Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/screen.css)
+        on line 7 of /home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/screen.css.scss
 
-/* line 22, ../../../../.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1; }
-
-/* line 24, ../../../../.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none; }
-
-/* line 26, ../../../../.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-/* line 28, ../../../../.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle; }
-
-/* line 30, ../../../../.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none; }
-  /* line 103, ../../../../.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-  q:before, q:after, blockquote:before, blockquote:after {
-    content: "";
-    content: none; }
-
-/* line 32, ../../../../.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none; }
-
-/* line 116, ../../../../.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block; }
+Backtrace:
+/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/screen.css.scss:7
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/import_node.rb:45:in `import'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/bin/compass:23:in `load'
+/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/960.\A               Load paths:\A                 /home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets\A                 /home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/zen-grids-1.4/stylesheets\A                 /home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/compass-960-plugin-0.10.4/stylesheets\A                 Compass::SpriteImporter\A                 Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint)\A                 Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/ie.css)\A                 Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/forms.css)\A                 Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/typography.css)\A                 Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/reset.css)\A                 Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/print.css)\A                 Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/vendor/assets/stylesheets/blueprint/grid.css)\A                 Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/lib/assets/stylesheets/blueprint)\A                 Sass::Rails::Importer(/home/rogera/.rvm/gems/ruby-2.0.0-p247@dev.samples.d-rails3/gems/blueprint-rails-0.2.0/lib/assets/stylesheets/blueprint/index.css)\A                 Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/screen.css.scss)\A                 Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/application.css)\A                 Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/print.css.scss)\A                 Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/ie.css)\A                 Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/ie.css.scss)\A                 Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/print.css)\A                 Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/server_events.css.scss)\A                 Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/scaffolds.css.scss)\A                 Sass::Rails::Importer(/home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/screen.css)\A         on line 7 of /home/rogera/dev.samples.d/ase.backend.server_event.d/app/assets/stylesheets/screen.css.scss"; }
