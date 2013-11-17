@@ -5,10 +5,13 @@
 
 @import "compass/reset";
 @import "960/text";
-@import "960/grid";
-
-//@import "zen";
 @include text;
+
+@import "960/grid";
+//@import "zen";
+
+@import "compass_twitter_bootstrap";
+
 
 .container_24 {
   $ninesixty-grid-width: 992px;

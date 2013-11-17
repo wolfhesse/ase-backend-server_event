@@ -19,10 +19,12 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 
-  gem 'compass-rails'
-  gem 'zen-grids'
+
   gem 'compass-960-plugin'
-  gem 'blueprint-rails'
+  gem 'compass_twitter_bootstrap'
+  gem 'compass-rails'
+  #gem 'compass_bootstrap-rails'
+  gem 'zen-grids'
 end
 
 gem 'jquery-rails'
@@ -42,6 +44,11 @@ gem 'unicorn'
 # To use debugger
 # gem 'debugger'
 
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
+
 group :test do
   gem 'test-unit'
+
+  gem 'ruby-prof'
 end

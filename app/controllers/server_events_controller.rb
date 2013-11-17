@@ -2,7 +2,9 @@ class ServerEventsController < ApplicationController
   # GET /server_events
   # GET /server_events.json
   def index
-    @server_events = ServerEvent.all
+    @server_events =
+        ServerEvent.by_name.paginate :page => params[:page]
+        #ServerEvent.by_name.all
 
     respond_to do |format|
       format.html # index.html.erb
