@@ -63,7 +63,7 @@ class ServerEventsController < ApplicationController
         format.html { redirect_to @server_event, notice: 'Server event was successfully updated.' }
         format.json { head :no_content }
       else
-        format.html { render action: "edit" }
+        format.html { render action: "edit", notice: 'Server event was not updated!'  }
         format.json { render json: @server_event.errors, status: :unprocessable_entity }
       end
     end
@@ -81,3 +81,7 @@ class ServerEventsController < ApplicationController
     end
   end
 end
+
+#
+# vim: fdm=syntax
+#

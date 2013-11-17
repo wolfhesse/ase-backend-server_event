@@ -4,3 +4,27 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	/home/rogera/dev.samples.d/ase.backend.server_event.d/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	/home/rogera/dev.samples.d/ase.backend.server_event.d/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Irng
+ApplicationController	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BrowsingTest	/home/rogera/dev.samples.d/ase.backend.server_event.d/test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+CreateServerEvents	/home/rogera/dev.samples.d/ase.backend.server_event.d/db/migrate/20131117041704_create_server_events.rb	/^class CreateServerEvents < ActiveRecord::Migration$/;"	c
+Irng	/home/rogera/dev.samples.d/ase.backend.server_event.d/config/application.rb	/^module Irng$/;"	m
+ServerEvent	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/models/server_event.rb	/^class ServerEvent < ActiveRecord::Base$/;"	c
+ServerEventTest	/home/rogera/dev.samples.d/ase.backend.server_event.d/test/unit/server_event_test.rb	/^class ServerEventTest < ActiveSupport::TestCase$/;"	c
+ServerEventsController	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/server_events_controller.rb	/^class ServerEventsController < ApplicationController$/;"	c
+ServerEventsControllerTest	/home/rogera/dev.samples.d/ase.backend.server_event.d/test/functional/server_events_controller_test.rb	/^class ServerEventsControllerTest < ActionController::TestCase$/;"	c
+ServerEventsHelper	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/helpers/server_events_helper.rb	/^module ServerEventsHelper$/;"	m
+ServerEventsHelperTest	/home/rogera/dev.samples.d/ase.backend.server_event.d/test/unit/helpers/server_events_helper_test.rb	/^class ServerEventsHelperTest < ActionView::TestCase$/;"	c
+about	/home/rogera/dev.samples.d/ase.backend.server_event.d/public/index.html	/^      function about() {$/;"	f
+change	/home/rogera/dev.samples.d/ase.backend.server_event.d/db/migrate/20131117041704_create_server_events.rb	/^  def change$/;"	f	class:CreateServerEvents
+create	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/server_events_controller.rb	/^  def create$/;"	f	class:ServerEventsController
+destroy	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/server_events_controller.rb	/^  def destroy$/;"	f	class:ServerEventsController
+edit	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/server_events_controller.rb	/^  def edit$/;"	f	class:ServerEventsController
+g:include_dirs	/home/rogera/dev.samples.d/ase.backend.server_event.d/env.vim	/^let g:include_dirs = [".\/include",]$/;"	v
+index	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/server_events_controller.rb	/^  def index$/;"	f	class:ServerEventsController
+new	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/server_events_controller.rb	/^  def new$/;"	f	class:ServerEventsController
+show	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/server_events_controller.rb	/^  def show$/;"	f	class:ServerEventsController
+test_homepage	/home/rogera/dev.samples.d/ase.backend.server_event.d/test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+update	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/server_events_controller.rb	/^  def update$/;"	f	class:ServerEventsController

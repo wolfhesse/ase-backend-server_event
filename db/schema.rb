@@ -11,13 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131117041704) do
+ActiveRecord::Schema.define(:version => 20131117182505) do
 
   create_table "server_events", :force => true do |t|
     t.string   "name"
     t.string   "vakz"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "va1kz"
   end
 
 end
