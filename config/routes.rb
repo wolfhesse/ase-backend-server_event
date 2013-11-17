@@ -1,4 +1,4 @@
-Irng::Application.routes.draw do
+AseSe::Application.routes.draw do
   resources :server_events
 
 

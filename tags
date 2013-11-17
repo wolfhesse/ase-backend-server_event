@@ -5,12 +5,12 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 ActiveSupport	/home/rogera/dev.samples.d/ase.backend.server_event.d/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
-Application	/home/rogera/dev.samples.d/ase.backend.server_event.d/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Irng
+Application	/home/rogera/dev.samples.d/ase.backend.server_event.d/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:AseSe
 ApplicationController	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 BrowsingTest	/home/rogera/dev.samples.d/ase.backend.server_event.d/test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
 CreateServerEvents	/home/rogera/dev.samples.d/ase.backend.server_event.d/db/migrate/20131117041704_create_server_events.rb	/^class CreateServerEvents < ActiveRecord::Migration$/;"	c
-Irng	/home/rogera/dev.samples.d/ase.backend.server_event.d/config/application.rb	/^module Irng$/;"	m
+AseSe	/home/rogera/dev.samples.d/ase.backend.server_event.d/config/application.rb	/^module AseSe$/;"	m
 ServerEvent	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/models/server_event.rb	/^class ServerEvent < ActiveRecord::Base$/;"	c
 ServerEventTest	/home/rogera/dev.samples.d/ase.backend.server_event.d/test/unit/server_event_test.rb	/^class ServerEventTest < ActiveSupport::TestCase$/;"	c
 ServerEventsController	/home/rogera/dev.samples.d/ase.backend.server_event.d/app/controllers/server_events_controller.rb	/^class ServerEventsController < ApplicationController$/;"	c

@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Irng::Application.load_tasks
+AseSe::Application.load_tasks
