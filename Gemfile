@@ -8,9 +8,6 @@ gem 'rails', '3.2.15'
 #gem 'sqlite3'
 gem 'activerecord-postgresql-adapter'
 
-# webserver
-gem 'unicorn'
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -24,6 +21,8 @@ group :assets do
 
   gem 'compass-rails'
   gem 'zen-grids'
+  gem 'compass-960-plugin'
+  gem 'blueprint-rails'
 end
 
 gem 'jquery-rails'
@@ -35,7 +34,7 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'

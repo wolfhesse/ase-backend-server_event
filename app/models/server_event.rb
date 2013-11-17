@@ -6,9 +6,10 @@ class ServerEvent < ActiveRecord::Base
     e.va1kz = 'initial' if e.va1kz.empty? unless e.va1kz.nil?
 
     # this handles a case with testing: mocked stuff TODO
-    if e.vakz.nil?
-      e.vakz = 'initial'
-    end
+    # scen.0, do not handle vakz.nil?
+    #if e.vakz.nil?
+    #  e.vakz = 'initial'
+    #end
 
     if e.va1kz.nil?
       e.va1kz = 'initial'

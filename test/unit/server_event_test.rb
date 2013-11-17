@@ -24,7 +24,7 @@ class ServerEventTest < ActiveSupport::TestCase
   end
 
   test 'server event has a vakz of initial when created' do
-    se = ServerEvent.create :name => 'sample'
+    se = ServerEvent.create! :name => 'sample'
     assert_equal 'initial', se.vakz
   end
 end
