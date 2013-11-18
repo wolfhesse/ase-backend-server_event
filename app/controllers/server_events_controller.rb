@@ -7,9 +7,10 @@ class ServerEventsController < ApplicationController
     session[:page] = params[:page] if params[:page]
     session[:page]||=1
 
-    if session[:page] != params[:page]
-      redirect_to :controller => controller_name, :action => action_name, page: session[:page], :params=> params and return
-    end
+    ### stoert update
+    #if session[:page] != params[:page]
+    #  redirect_to :controller => controller_name, :action => action_name, page: session[:page], :params=> params and return
+    #end
 
     #if   params[:controller].blank? || params[:action].blank?
     #  redirect_to :controller => controller_name, :action => action_name, page: session[:page], :params=> params and return

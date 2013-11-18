@@ -3,20 +3,14 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-
 @import "compass_twitter_bootstrap";
-
 //@import "compass/reset";
 //@import "compass-bootstrap/compass_bootstrap";
-
 //@import "960/text";
 //@include text;
-
 @import "960/grid";
 
-
 //@import "zen";
-
 
 //@import "zen/background";
 
@@ -29,23 +23,56 @@
   @include grid-system(24);
 }
 
-.container_16 {
-  $ninesixty-grid-width: 656px;
-  $ninesixty-columns: 16;
-  $ninesixty-gutter-width: 0px;
-  @include grid-system(16);
+td, th {
+  @extend .grid_3;
 }
 
-table {
-  $ninesixty-grid-width: 740px;
-  $ninesixty-columns: 12;
-  $ninesixty-gutter-width: 0px;
-  //+grid-system(24)
-  //@include grid-system(24);
+// Place all the styles related to the ServerEvents controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*body {*/
+/*padding: 0;*/
+/*}*/
+
+.wrapper {
+  margin: 0 auto;
   @extend .container_24;
 }
 
-td {
-  @extend .grids_2;
+.static {
+  z-index: 2;
+  position: fixed;
+  @extend .container_24;
 }
 
+.header {
+  background-color: Silver;
+  opacity: 0.8;
+  @extend .grid_16;
+  @include alpha;
+  @include omega;
+}
+
+.content {
+  background-color: Orange;
+  float: left;
+  position: relative;
+  top: 200px;
+  @extend .container_24;
+}
+
+.menu {
+  background-color: #edf9bf;
+  position: relative;
+  /* left: 200px;*/
+  /* width: 200px;*/
+  @extend .grid_14;
+  @include alpha;
+  @include omega;
+}
+
+.lastinline, div, table, h1, h2, h3, h4 {
+  margin-left: 8px !important;
+  margin-top: 8px !important;
+}

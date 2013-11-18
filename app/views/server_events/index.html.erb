@@ -1,30 +1,35 @@
-<h1>Listing server_events</h1>
-<div class='r-wp-container'>
-<%= will_paginate @server_events%>
+<%= content_for :header do %>
+    <h1>Listing server_events</h1>
+<% end %>
+<%= content_for :menu do %>
+    <%= will_paginate @server_events %>
+    <div>
+      <%= link_to 'New Server event', new_server_event_path %>
+    </div>
+<% end %>
+
+<div class='r-listing'>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Vakz</th>
+      <th>Va1kz</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+
+
+    <% @server_events.each do |server_event| %>
+        <tr>
+          <td><%= server_event.name %></td>
+          <td><%= server_event.vakz %></td>
+          <td><%= server_event.va1kz %></td>
+          <td><%= link_to 'Show', server_event %></td>
+          <td><%= link_to 'Edit', edit_server_event_path(server_event) %></td>
+          <td><%= link_to 'Destroy', server_event, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+        </tr>
+    <% end %>
+  </table>
 </div>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Vakz</th>
-    <th>Va1kz</th>
-    <th>&nbsp;</th>
-    <th>&nbsp;</th>
-    <th>&nbsp;</th>
-  </tr>
 
-
-  <% @server_events.each do |server_event| %>
-      <tr>
-        <td><%= server_event.name %></td>
-        <td><%= server_event.vakz %></td>
-        <td><%= server_event.va1kz %></td>
-        <td><%= link_to 'Show', server_event %></td>
-        <td><%= link_to 'Edit', edit_server_event_path(server_event) %></td>
-        <td><%= link_to 'Destroy', server_event, method: :delete, data: {confirm: 'Are you sure?'} %></td>
-      </tr>
-  <% end %>
-</table>
-
-<br/>
-
-<%= link_to 'New Server event', new_server_event_path %>

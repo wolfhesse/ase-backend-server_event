@@ -1,6 +1,12 @@
-<h1>Editing server_event</h1>
-
+<%= content_for :header do %>
+    <h1>Editing server_event</h1>
+<% end %>
+<div>
 <%= render 'form' %>
-
-<%= link_to 'Show', @server_event %> |
-<%= link_to 'Back', server_events_path %>
+</div>
+<%= content_for :menu do %>
+    <div>
+    <%= link_to 'Show', @server_event %> |
+    <%= link_to 'Back', server_events_path %>
+    </div>
+<% end %>

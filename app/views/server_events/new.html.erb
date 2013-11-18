@@ -1,5 +1,11 @@
-<h1>New server_event</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Back', server_events_path %>
+<%= content_for :header do %>
+    <h1>New server_event</h1>
+<% end %>
+<div>
+  <%= render 'form' %>
+</div>
+<%= content_for :menu do %>
+    <div>
+      <%= link_to 'Back', server_events_path %>
+    </div>
+<% end %>
