@@ -2,6 +2,7 @@ project_type = :rails
 #
 # Require any additional compass plugins here.
 require 'compass_twitter_bootstrap'
+require 'will_paginate-bootstrap'
 #require 'compass-bootstrap-rails'
 require 'ninesixty'
 #require 'zen-grids'

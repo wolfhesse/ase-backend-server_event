@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 gem 'rails', '3.2.15'
 
@@ -48,8 +49,8 @@ gem 'will_paginate'
 # doesn't work right now
 gem 'will_paginate-bootstrap'
 
+gem 'better_errors', '>= 0.3.2', :group => :development
 group :test do
   gem 'test-unit'
-
   gem 'ruby-prof'
 end

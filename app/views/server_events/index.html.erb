@@ -2,7 +2,9 @@
     <h1>Listing server_events</h1>
 <% end %>
 <%= content_for :menu do %>
-    <%= will_paginate @server_events %>
+    <div class='pagination pagination-centered'>
+      <%= will_paginate @server_events, renderer: BootstrapPagination::Rails, class: 'nothing' %>
+    </div>
     <div>
       <%= link_to 'New Server event', new_server_event_path %>
     </div>

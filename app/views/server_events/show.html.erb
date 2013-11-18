@@ -1,21 +1,26 @@
 <%= content_for :header do %>
     <h1>Server Event</h1>
 <% end %>
-
 <%= content_for :menu do %>
+    <div>
+      <%= link_to 'Edit', edit_server_event_path(@server_event) %> |
+      <%= link_to 'Back', server_events_path %>
+    </div>
+<% end %>
+<%= content_for :content do %>
     <p id="notice"><%= notice %></p>
-    <%= link_to 'Edit', edit_server_event_path(@server_event) %> |
-    <%= link_to 'Back', server_events_path %>
 <% end %>
 <div>
   <h4>
     <b>Name:</b>
     <%= @server_event.name %>
   </h4>
+
   <p>
     <b>Vakz:</b>
     <%= @server_event.vakz %>
   </p>
+
   <p>
     <b>Va1kz:</b>
     <%= @server_event.va1kz %>

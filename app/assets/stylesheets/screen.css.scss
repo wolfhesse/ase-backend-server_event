@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass_twitter_bootstrap";
+@import "compass_twitter_bootstrap_responsive";
 //@import "compass/reset";
 //@import "compass-bootstrap/compass_bootstrap";
 //@import "960/text";
@@ -18,9 +18,18 @@
 
 .container_24 {
   $ninesixty-grid-width: 992px;
+  $ninesixty-grid-width: 640px;
   $ninesixty-columns: 24;
   $ninesixty-gutter-width: 0px;
   @include grid-system(24);
+}
+
+.container_12 {
+  $ninesixty-grid-width: 640px;
+  $ninesixty-columns: 24;
+  $ninesixty-gutter-width: 0px;
+  @include grid-system(24);
+
 }
 
 td, th {
@@ -49,17 +58,8 @@ td, th {
 .header {
   background-color: Silver;
   opacity: 0.8;
-  @extend .grid_16;
-  @include alpha;
-  @include omega;
-}
+  @extend .grid_18;
 
-.content {
-  background-color: Orange;
-  float: left;
-  position: relative;
-  top: 200px;
-  @extend .container_24;
 }
 
 .menu {
@@ -67,12 +67,26 @@ td, th {
   position: relative;
   /* left: 200px;*/
   /* width: 200px;*/
-  @extend .grid_14;
-  @include alpha;
-  @include omega;
+  opacity: 0.8;
+  @extend .grid_18;
+
 }
 
-.lastinline, div, table, h1, h2, h3, h4 {
-  margin-left: 8px !important;
-  margin-top: 8px !important;
+.content {
+  background-color: Orange;
+  float: left;
+  position: relative;
+  top: 150px;
+  @extend .container_12;
+
 }
+
+//
+//.lastinline, form, table, h1, h2, h3, h4 {
+//  margin-left: 8px !important;
+//  margin-top: 8px !important;
+//}
+
+//html, body {
+//  zoom: 150%;
+//}
