@@ -1,10 +1,15 @@
 class ServerEventsController < ApplicationController
+  before_filter do
+    session[:page] ||= params[:page] unless params[:page] != session[:page]
+    session[:page] = params[:page] if params[:page] && params[:page] != session[:page]
+  end
+
   # GET /server_events
   # GET /server_events.json
   def index
     @server_events =
-        ServerEvent.by_name.paginate :page => params[:page]
-        #ServerEvent.by_name.all
+        ServerEvent.by_name.paginate :page => session[:page]
+    #ServerEvent.by_name.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -65,7 +70,7 @@ class ServerEventsController < ApplicationController
         format.html { redirect_to @server_event, notice: 'Server event was successfully updated.' }
         format.json { head :no_content }
       else
-        format.html { render action: "edit", notice: 'Server event was not updated!'  }
+        format.html { render action: "edit", notice: 'Server event was not updated!' }
         format.json { render json: @server_event.errors, status: :unprocessable_entity }
       end
     end
