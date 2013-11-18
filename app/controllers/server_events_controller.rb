@@ -1,7 +1,23 @@
 class ServerEventsController < ApplicationController
+
   before_filter do
-    session[:page] ||= params[:page] unless params[:page] != session[:page]
-    session[:page] = params[:page] if params[:page] && params[:page] != session[:page]
+    #session[:page] ||= params[:page] unless params[:page] != session[:page]
+    #session[:page] = params[:page] if params[:page] && params[:page] != session[:page]
+
+    session[:page] = params[:page] if params[:page]
+    session[:page]||=1
+
+    if session[:page] != params[:page]
+      redirect_to :controller => controller_name, :action => action_name, page: session[:page], :params=> params and return
+    end
+
+    #if   params[:controller].blank? || params[:action].blank?
+    #  redirect_to :controller => controller_name, :action => action_name, page: session[:page], :params=> params and return
+    #end
+
+    #if params[:sane].blank?
+    #  redirect_to :controller => :server_events, :action => action_name, page: session[:page], :params=> params, :sane=>:true and return
+    #end
   end
 
   # GET /server_events
