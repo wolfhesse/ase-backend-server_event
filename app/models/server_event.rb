@@ -1,7 +1,7 @@
 class ServerEvent < ActiveRecord::Base
 
   # config will_paginate
-  self.per_page = 10
+  self.per_page = 15
 
   before_save {|e|
     logger.info 'in before_save of ServerEvent '+e.inspect

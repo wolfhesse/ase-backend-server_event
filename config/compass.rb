@@ -1,9 +1,10 @@
 project_type = :rails
 #
 # Require any additional compass plugins here.
-require '
-require 'zen-grids'
+require 'compass_twitter_bootstrap'
+#require 'compass-bootstrap-rails'
 require 'ninesixty'
+#require 'zen-grids'
 
 # Set this to the root of your project when deployed:
 http_path = "/"

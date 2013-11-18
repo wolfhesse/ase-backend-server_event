@@ -46,10 +46,10 @@ GEM
       sass (~> 3.1)
     compass-960-plugin (0.10.4)
       compass (>= 0.10.0)
-    compass-bootstrap-rails (0.1.4.0)
-      compass (>= 0.10.0)
     compass-rails (1.0.3)
       compass (>= 0.12.2, < 0.14)
+    compass_twitter_bootstrap (2.3.1)
+      compass
     erubis (2.7.0)
     execjs (2.0.2)
     fssm (0.2.10)
@@ -132,8 +132,8 @@ DEPENDENCIES
   activerecord-postgresql-adapter
   coffee-rails (~> 3.2.1)
   compass-960-plugin
-  compass-bootstrap-rails
   compass-rails
+  compass_twitter_bootstrap
   jquery-rails
   rails (= 3.2.15)
   ruby-prof

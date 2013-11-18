@@ -32,8 +32,8 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.3, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass (v0.12.2, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass-960-plugin (v0.10.4, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="compass-bootstrap-rails (v0.1.4.0, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass-rails (v1.0.3, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass_twitter_bootstrap (v2.3.1, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.0.2, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fssm (v0.2.10, RVM: ruby-2.0.0-p247 [dev.samples.d-rails3]) [gem]" level="application" />
