@@ -18,19 +18,12 @@
 
 .container_24 {
   $ninesixty-grid-width: 992px;
-  $ninesixty-grid-width: 640px;
+  //$ninesixty-grid-width: 640px;
   $ninesixty-columns: 24;
   $ninesixty-gutter-width: 0px;
   @include grid-system(24);
 }
 
-.container_12 {
-  $ninesixty-grid-width: 640px;
-  $ninesixty-columns: 12;
-  $ninesixty-gutter-width: 0px;
-  @include grid-system(12);
-
-}
 
 td, th {
   @extend .grid_3;
@@ -52,23 +45,23 @@ td, th {
 .static {
   z-index: 2;
   position: fixed;
-  @extend .container_12;
+  @extend .container_24;
 }
 
 .header {
   background-color: Silver;
   opacity: 0.8;
-  @extend .grid_12;
+  @extend .grid_24;
 
 }
 
 .menu {
   background-color: #edf9bf;
   position: relative;
-  /* left: 200px;*/
-  /* width: 200px;*/
   opacity: 0.8;
-  @extend .grid_12;
+  @extend .grid_18;
+
+  .pagination { margin: 0; };
 
 }
 
