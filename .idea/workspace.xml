@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37f3e5f6-451f-478a-8afd-ff6b211f948e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/server_events/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/server_events/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/server_events/index.html.erb" afterPath="$PROJECT_DIR$/app/views/server_events/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/server_events/new.html.erb" afterPath="$PROJECT_DIR$/app/views/server_events/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/screen.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/screen.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/server_events.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/server_events.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/server_events_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/server_events_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/server_events/show.html.erb" afterPath="$PROJECT_DIR$/app/views/server_events/show.html.erb" />
+    <list default="true" id="37f3e5f6-451f-478a-8afd-ff6b211f948e" name="Default" comment="cp">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ase.backend.server_event.d.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384736630410" ignored="false" />
+    <file path="/Dummy.txt" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384742075422" ignored="false" />
     <file path="/screen.css.scss" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384741362874" ignored="false" />
     <file path="/server_events.css.scss" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384723801426" ignored="false" />
     <file path="db-console:/ddafcf79/5adf7efa-b3a7-45a4-a80b-840f591fe5d7/" changelist="37f3e5f6-451f-478a-8afd-ff6b211f948e" time="1384723854765" ignored="false" />
@@ -74,7 +62,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.16414142">
+            <state line="1" column="7" selection-start="17" selection-end="29" vertical-scroll-proportion="0.032828283">
               <folding />
             </state>
           </provider>
@@ -249,6 +237,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ase.backend.server_event.d" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ase.backend.server_event.d" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ase.backend.server_event.d" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data.d" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.MinorFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -832,15 +834,19 @@
       <created>1384736633517</created>
       <updated>1384736633517</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="cp">
+      <created>1384742070153</created>
+      <updated>1384742070153</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-2" width="1026" height="771" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3384458" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3384458" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -901,7 +907,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="wp" />
+    <option name="LAST_COMMIT_MESSAGE" value="cp" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -923,6 +929,7 @@
     <MESSAGE value="wp doesn't work" />
     <MESSAGE value="wp working" />
     <MESSAGE value="wp" />
+    <MESSAGE value="cp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1035,7 +1042,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.16414142">
+        <state line="1" column="7" selection-start="17" selection-end="29" vertical-scroll-proportion="0.032828283">
           <folding />
         </state>
       </provider>
