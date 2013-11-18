@@ -26,9 +26,9 @@
 
 .container_12 {
   $ninesixty-grid-width: 640px;
-  $ninesixty-columns: 24;
+  $ninesixty-columns: 12;
   $ninesixty-gutter-width: 0px;
-  @include grid-system(24);
+  @include grid-system(12);
 
 }
 
@@ -52,13 +52,13 @@ td, th {
 .static {
   z-index: 2;
   position: fixed;
-  @extend .container_24;
+  @extend .container_12;
 }
 
 .header {
   background-color: Silver;
   opacity: 0.8;
-  @extend .grid_18;
+  @extend .grid_12;
 
 }
 
@@ -68,7 +68,7 @@ td, th {
   /* left: 200px;*/
   /* width: 200px;*/
   opacity: 0.8;
-  @extend .grid_18;
+  @extend .grid_12;
 
 }
 
@@ -77,7 +77,7 @@ td, th {
   float: left;
   position: relative;
   top: 150px;
-  @extend .container_12;
+  @extend .container_24;
 
 }
 
